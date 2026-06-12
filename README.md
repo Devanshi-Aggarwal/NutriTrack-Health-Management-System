@@ -1,4 +1,4 @@
-# NutriTrack – Health Management System
+# NutriTrack - Health Management System
 
 NutriTrack is a comprehensive health management system designed to help users monitor their nutrition, fitness, hydration, sleep, and overall wellness in one place.
 
