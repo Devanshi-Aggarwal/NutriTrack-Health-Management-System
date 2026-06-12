@@ -1,131 +1,213 @@
-# NutriTrack – Smart Diet & Fitness Analytics System
+# NutriTrack – Health Management System
 
-## Author
-**Devanshi Aggarwal**
+NutriTrack is a comprehensive health management system designed to help users monitor their nutrition, fitness, hydration, sleep, and overall wellness in one place.
 
-## Overview
-NutriTrack is a Python + Streamlit based health analytics application designed to help users monitor their nutrition, fitness, hydration, and overall wellness in one place.
+This project combines **Python-based health calculation logic** with a modern **HTML, CSS, and JavaScript user interface prototype** to simulate a real-world health tracking application.
 
-The system allows users to:
-- Create and manage personal health profiles
-- Log meals and track calorie intake
-- Monitor workouts and calories burned
-- Track daily water intake and sleep hours
-- Analyze BMI and health category
-- Generate daily nutrition summaries
-- Receive personalized health reports and recommendations
+The frontend UI was designed and generated with the assistance of **Claude AI**, while the core project logic, health calculations, validations, data structure, feature design, and workflow implementation were built using **Python**.
 
 ---
 
-## Features
+# Features
 
-- User Profile Management  
-- Dashboard Analytics  
-- Meal Logging System  
-- Nutrition Summary  
-- Workout Tracking  
-- Water & Sleep Monitoring  
-- BMI Analysis  
-- Food Database Management  
-- Health Report Generation  
-
----
-
-## Tech Stack
-
-- **Python**
-- **Streamlit**
-- **Session State**
-- **Modular Programming**
-- **Data Structures (Dictionary, Lists)**
+* User profile creation and management
+* BMI calculation and health category analysis
+* Daily meal logging with calorie calculation
+* Food database with nutritional values
+* Nutrition summary with macronutrient breakdown
+* Workout tracking with calories burned
+* Water intake monitoring
+* Sleep tracking and analysis
+* Personalized health report and recommendations
 
 ---
 
-## Project Structure
+# Tech Stack
+
+* **Frontend / UI Prototype:** HTML5, CSS3, JavaScript
+* **Core Logic:** Python
+* **Architecture:** Modular multi-file design
+* **AI Assistance:** Claude AI (UI generation)
+* **Version Control:** Git & GitHub
+
+---
+
+# Project Structure
 
 ```bash
-NutriTrack/
+NutriTrack-Health-Management-System/
 │
+├── README.md
 ├── main.py
 ├── calculations.py
 ├── validation.py
 ├── food_database.py
 ├── fitness_database.py
-├── README.md
+│
 └── screenshots/
+    ├── welcome.png
+    ├── dashboard.png
+    ├── profile.png
+    ├── meal_log.png
+    ├── nutrition_summary.png
+    ├── workouts.png
+    ├── water_sleep.png
+    ├── bmi_analysis.png
+    ├── food_database.png
+    └── health_report.png
 ```
 
 ---
 
-## Screenshots
+# Modules Overview
 
-### Welcome Screen
-![Welcome](screenshots/welcome.png)
+### `main.py`
 
-### Dashboard
+Acts as the central controller of the project and connects all modules together.
+
+### `validation.py`
+
+Handles all user input validation to ensure correct and safe data processing.
+
+### `calculations.py`
+
+Contains all mathematical and health-related calculations including:
+
+* BMI
+* Calorie needs
+* Macronutrient calculations
+* Health scoring
+
+### `food_database.py`
+
+Stores food items and their nutritional values such as:
+
+* Calories
+* Protein
+* Carbohydrates
+* Fats
+
+### `fitness_database.py`
+
+Stores workout activities and calories burned for each exercise.
+
+---
+
+# Application Screenshots
+
+## Welcome Screen
+
+Initial screen shown before profile setup.
+
+![Welcome Screen](screenshots/welcome.png)
+
+---
+
+## Dashboard
+
+Main dashboard showing daily health overview.
+
 ![Dashboard](screenshots/dashboard.png)
 
-### Profile
+---
+
+## Profile Page
+
+Displays personal health information and goals.
+
 ![Profile](screenshots/profile.png)
 
-### Meal Log
+---
+
+## Meal Log
+
+Track meals throughout the day with calorie monitoring.
+
 ![Meal Log](screenshots/meal_log.png)
 
-### Nutrition Summary
+---
+
+## Nutrition Summary
+
+Shows macro distribution and diet recommendations.
+
 ![Nutrition Summary](screenshots/nutrition_summary.png)
 
-### Workouts
+---
+
+## Workouts
+
+Track exercises and calories burned.
+
 ![Workouts](screenshots/workouts.png)
 
-### Water & Sleep
-![Water & Sleep](screenshots/water_sleep.png)
+---
 
-### BMI Analysis
+## Water & Sleep Tracker
+
+Monitor hydration and sleep quality.
+
+![Water and Sleep](screenshots/water_sleep.png)
+
+---
+
+## BMI Analysis
+
+Visual BMI indicator with health ranges.
+
 ![BMI Analysis](screenshots/bmi_analysis.png)
 
-### Food Database
+---
+
+## Food Database
+
+Browse available food items and nutrition values.
+
 ![Food Database](screenshots/food_database.png)
 
-### Health Report
+---
+
+## Health Report
+
+Personalized health score and suggestions.
+
 ![Health Report](screenshots/health_report.png)
 
 ---
 
-## Key Learning Outcomes
+# Key Learnings
 
 Through this project, I improved my understanding of:
 
-- Modular programming
-- Code organization across multiple files
-- Input validation
-- Data handling using dictionaries and lists
-- UI development using Streamlit
-- Problem solving and debugging
-- Building real-world Python projects
+* Modular Python programming
+* Function-based architecture
+* Data organization and management
+* Input validation techniques
+* Health metric calculations
+* UI/UX design thinking
+* AI-assisted development workflow
+* GitHub project structuring
 
 ---
 
-## Future Improvements
+# Future Improvements
 
-- Monthly health history tracking  
-- Database integration (SQLite/MySQL)  
-- Authentication system  
-- Cloud deployment  
-- AI-based diet recommendations  
+Potential future enhancements include:
 
----
-
-## Run Locally
-
-```bash
-git clone <your-repo-link>
-cd NutriTrack
-pip install -r requirements.txt
-streamlit run main.py
-```
+* Database integration (SQLite / MySQL)
+* Authentication system
+* Cloud deployment
+* Historical data analytics
+* Weekly/monthly reports
+* AI-powered diet recommendations
+* Mobile responsive interface
 
 ---
 
-## Conclusion
+# Author
 
-NutriTrack is a complete health management solution that combines nutrition tracking, fitness monitoring, and health analytics into a single interactive dashboard. This project demonstrates practical Python development skills while solving a real-world problem.
+**Devanshi Aggarwal**
+B.Tech CSE Student | VIT Bhopal
+Passionate about Python, AI, and building impactful software solutions.
+
+GitHub: https://github.com/Devanshi-Aggarwal
