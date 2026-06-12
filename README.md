@@ -195,4 +195,4 @@ A frontend prototype for NutriTrack was also designed to visualize how the appli
 
 ## Conclusion
 
-NutriTrack is more than a calorie calculator—it is a complete health analytics system that combines nutrition, fitness, and health insights into one platform. The project demonstrates both technical implementation and product-thinking skills, making it a strong example of practical Python application development.
+NutriTrack is more than a calorie calculator - it is a complete health analytics system that combines nutrition, fitness, and health insights into one platform. The project demonstrates both technical implementation and product-thinking skills, making it a strong example of practical Python application development.
