@@ -1,10 +1,11 @@
 # NutriTrack - Health Management System
 
-NutriTrack is a comprehensive health management system designed to help users monitor their nutrition, fitness, hydration, sleep, and overall wellness in one place.
+NutriTrack is a comprehensive health management system designed to help users monitor nutrition, fitness, hydration, sleep, and overall wellness in one place.
 
-This project combines **Python-based health calculation logic** with a modern **HTML, CSS, and JavaScript user interface prototype** to simulate a real-world health tracking application.
+The core logic of this project-including health calculations, validations, data handling, and modular workflow-was implemented using **Python**.
 
-The frontend UI was designed and generated with the assistance of **Claude AI**, while the core project logic, health calculations, validations, data structure, feature design, and workflow implementation were built using **Python**.
+To enhance project visualization and demonstrate a modern user experience, UI prototypes were designed separately using **HTML, CSS, and JavaScript with Claude AI assistance**. These prototypes represent how the application can be transformed into a full-scale web-based product.
+
 
 ---
 
