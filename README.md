@@ -6,8 +6,8 @@ A comprehensive Python-based health analytics system for calorie tracking, nutri
 
 ## Author
 
-**Devanshi**
-Student at VIT Bhopal University
+**Devanshi Aggarwal**
+Student, VIT Bhopal University
 
 ---
 
