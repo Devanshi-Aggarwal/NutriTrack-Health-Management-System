@@ -347,7 +347,7 @@ Through this project, I strengthened my understanding of:
 
 # Conclusion
 
-NutriTrack is more than a calorie calculator-it is a complete health analytics platform that combines nutrition, fitness, and health intelligence into a unified system.
+NutriTrack is more than a calorie calculator, it is a complete health analytics platform that combines nutrition, fitness, and health intelligence into a unified system.
 
 This project reflects both technical implementation skills and product-oriented thinking, showcasing the ability to build practical solutions that solve real-world problems.
 
