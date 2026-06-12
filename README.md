@@ -9,6 +9,12 @@ To enhance project visualization and demonstrate a modern user experience, UI pr
 
 ---
 
+## Why This Project?
+
+Managing health often requires using multiple apps for calorie tracking, workouts, hydration, and sleep monitoring. NutriTrack aims to bring all these essential health metrics into a single unified system, making health management simpler, smarter, and more efficient.
+
+---
+
 # Features
 
 * User profile creation and management
