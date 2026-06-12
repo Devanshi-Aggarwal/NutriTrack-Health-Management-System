@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/Project-Completed-green)
+![AI Assisted](https://img.shields.io/badge/UI-Claude_AI-purple)
+
 # NutriTrack - Health Management System
 
 NutriTrack is a comprehensive health management system designed to help users monitor nutrition, fitness, hydration, sleep, and overall wellness in one place.
@@ -214,7 +218,8 @@ Potential future enhancements include:
 # Author
 
 **Devanshi Aggarwal**
-B.Tech CSE Student | VIT Bhopal
-Passionate about Python, AI, and building impactful software solutions.
+B.Tech Computer Science Student | VIT Bhopal University
 
-GitHub: https://github.com/Devanshi-Aggarwal
+Interested in Python development, AI-assisted software engineering, and building practical solutions that solve real-world problems.
+
+GitHub: [Devanshi-Aggarwal](https://github.com/Devanshi-Aggarwal)
